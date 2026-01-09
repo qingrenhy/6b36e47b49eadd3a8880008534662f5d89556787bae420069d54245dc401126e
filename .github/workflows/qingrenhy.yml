@@ -2,19 +2,22 @@ name: qingrenhy
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 2/6 * * *'
+    - cron: '35 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: qingrenhy
         env:
-          i47771: ${{ secrets.i47771 }}
+          jxspw1654: ${{ secrets.jxspw1654 }}
         run: |
-          echo $i47771 | jq -r .z178 | /bin/bash
-          echo $rq4558 | jq -r .ng13003 | /bin/bash
-          echo $tjo66 | jq -r .hgqd7 | /bin/bash
-          echo $ta7689 | jq -r .abzi18899 | /bin/bash
+          echo $jxspw1654 | jq -r .ck0084 | /bin/bash
+          echo $m80 | jq -r .wz60 | /bin/bash
+          echo $adowe814 | jq -r .gmjdm313 | /bin/bash
+          echo $tjpq692 | jq -r .ni72750 | /bin/bash
+          echo $fcmf5 | jq -r .v8 | /bin/bash
+          echo $iaj77 | jq -r .p887 | /bin/bash
+          echo $m003 | jq -r .gh61 | /bin/bash
+          echo $ugkq23155 | jq -r .w06 | /bin/bash
 
